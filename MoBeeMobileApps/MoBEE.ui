@@ -1,0 +1,529 @@
+<ui version="4.0" >
+ <class>MoBEE</class>
+ <widget class="QMainWindow" name="MoBEE" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>368</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>MoBEE RC.1</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <widget class="QStackedWidget" name="stackedWidget" >
+    <property name="geometry" >
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>281</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="palette" >
+     <palette>
+      <active>
+       <colorrole role="Base" >
+        <brush brushstyle="SolidPattern" >
+         <color alpha="255" >
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window" >
+        <brush brushstyle="SolidPattern" >
+         <color alpha="255" >
+          <red>145</red>
+          <green>145</green>
+          <blue>145</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Base" >
+        <brush brushstyle="SolidPattern" >
+         <color alpha="255" >
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window" >
+        <brush brushstyle="SolidPattern" >
+         <color alpha="255" >
+          <red>145</red>
+          <green>145</green>
+          <blue>145</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Base" >
+        <brush brushstyle="SolidPattern" >
+         <color alpha="255" >
+          <red>145</red>
+          <green>145</green>
+          <blue>145</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window" >
+        <brush brushstyle="SolidPattern" >
+         <color alpha="255" >
+          <red>145</red>
+          <green>145</green>
+          <blue>145</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="frameShape" >
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="currentIndex" >
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="startCameraButton" >
+    <property name="geometry" >
+     <rect>
+      <x>180</x>
+      <y>530</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Start camera</string>
+    </property>
+    <property name="checkable" >
+     <bool>true</bool>
+    </property>
+    <property name="checked" >
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="takeImageButton" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>520</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>GET OBJECT ADVERTISING</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>490</y>
+      <width>361</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value" >
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btnGoogleMap" >
+    <property name="enabled" >
+     <bool>true</bool>
+    </property>
+    <property name="geometry" >
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string/>
+    </property>
+    <property name="icon" >
+     <iconset resource="resources.qrc" >
+      <normaloff>:/icon/icons/dap_premium.png</normaloff>:/icon/icons/dap_premium.png</iconset>
+    </property>
+    <property name="iconSize" >
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="servicesButton" >
+    <property name="geometry" >
+     <rect>
+      <x>290</x>
+      <y>60</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string/>
+    </property>
+    <property name="icon" >
+     <iconset resource="resources.qrc" >
+      <normaloff>:/icon/icons/ico_tutorial.png</normaloff>:/icon/icons/ico_tutorial.png</iconset>
+    </property>
+    <property name="iconSize" >
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_4" >
+    <property name="geometry" >
+     <rect>
+      <x>290</x>
+      <y>110</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string/>
+    </property>
+    <property name="icon" >
+     <iconset resource="resources.qrc" >
+      <normaloff>:/icon/icons/Wikitemplatewarning.png</normaloff>:/icon/icons/Wikitemplatewarning.png</iconset>
+    </property>
+    <property name="iconSize" >
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_3" >
+    <property name="geometry" >
+     <rect>
+      <x>290</x>
+      <y>160</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string/>
+    </property>
+    <property name="icon" >
+     <iconset resource="resources.qrc" >
+      <normaloff>:/icon/icons/Satellite.png</normaloff>:/icon/icons/Satellite.png</iconset>
+    </property>
+    <property name="iconSize" >
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4" >
+    <property name="geometry" >
+     <rect>
+      <x>100</x>
+      <y>230</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text" >
+     <string>Longitude</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblLongitude" >
+    <property name="geometry" >
+     <rect>
+      <x>100</x>
+      <y>250</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text" >
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text" >
+     <string>Latitude</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblLatitude" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text" >
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtInformation" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>351</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label" >
+    <property name="geometry" >
+     <rect>
+      <x>200</x>
+      <y>230</y>
+      <width>46</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text" >
+     <string>Cell ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCellID" >
+    <property name="geometry" >
+     <rect>
+      <x>200</x>
+      <y>250</y>
+      <width>46</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text" >
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2" >
+    <property name="geometry" >
+     <rect>
+      <x>280</x>
+      <y>230</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text" >
+     <string>Operator</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblOperatorName" >
+    <property name="geometry" >
+     <rect>
+      <x>280</x>
+      <y>250</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text" >
+     <string>00</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>EXIT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>368</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionExit" >
+   <property name="text" >
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSettings" >
+   <property name="text" >
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionCamera" >
+   <property name="text" >
+    <string>Camera</string>
+   </property>
+  </action>
+  <action name="actionAudio" >
+   <property name="text" >
+    <string>Audio</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc" />
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionExit</sender>
+   <signal>triggered()</signal>
+   <receiver>MoBEE</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>154</x>
+     <y>130</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSettings</sender>
+   <signal>triggered()</signal>
+   <receiver>MoBEE</receiver>
+   <slot>settings()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>242</x>
+     <y>206</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>startCameraButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MoBEE</receiver>
+   <slot>toggleCamera()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>545</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>589</x>
+     <y>46</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>takeImageButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MoBEE</receiver>
+   <slot>takeImage()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>185</x>
+     <y>486</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>183</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>record()</slot>
+  <slot>pause()</slot>
+  <slot>stop()</slot>
+  <slot>enablePreview(bool)</slot>
+  <slot>settings()</slot>
+  <slot>takeImage()</slot>
+  <slot>toggleCamera()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/icon" >
+        <file>icons/Satellite.png</file>
+        <file>icons/Wikitemplatewarning.png</file>
+        <file>icons/application.qss</file>
+        <file>icons/blue.qss</file>
+        <file>icons/dap_premium.png</file>
+        <file>icons/ico_tutorial.png</file>
+        <file>icons/ico_widgetlab.png</file>
+        <file>icons/khaki.qss</file>
+        <file>icons/nostyle.qss</file>
+        <file>icons/transparent.qss</file>
+    </qresource>
+</RCC>

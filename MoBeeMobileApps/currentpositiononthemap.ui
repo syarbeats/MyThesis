@@ -1,0 +1,58 @@
+<ui version="4.0" >
+ <class>CurrentPositionOnTheMapClass</class>
+ <widget class="QWidget" name="CurrentPositionOnTheMapClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>376</width>
+    <height>587</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>CurrentPositionOnTheMap</string>
+  </property>
+  <widget class="QLabel" name="lblMap" >
+   <property name="geometry" >
+    <rect>
+     <x>15</x>
+     <y>10</y>
+     <width>351</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>540</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Main Menu</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showMapButton" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>500</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Show Position On The Map</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

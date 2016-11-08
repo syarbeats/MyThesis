@@ -1,0 +1,87 @@
+<ui version="4.0" >
+ <class>NearestServicesClass</class>
+ <widget class="QWidget" name="NearestServicesClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>376</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>NearestServices</string>
+  </property>
+  <widget class="QFrame" name="frame" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>9</y>
+     <width>361</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="frameShape" >
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow" >
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth" >
+    <number>2</number>
+   </property>
+   <widget class="QTreeView" name="treeServices" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>341</width>
+      <height>471</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="showServicesButton" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>SHOW SERVICES</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="callButton" >
+   <property name="geometry" >
+    <rect>
+     <x>190</x>
+     <y>510</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>CALL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>550</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>MAIN MENU</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>
